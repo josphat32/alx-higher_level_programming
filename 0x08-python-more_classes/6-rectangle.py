@@ -73,7 +73,7 @@ class Rectangle:
         '''
         rectangle = ""
         if self.height == 0 or self.width == 0:
-           return rectangle
+            return rectangle
 
         for h in range(self.height - 1):
             rectangle += "#" * self.width + "\n"

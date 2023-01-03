@@ -88,7 +88,7 @@ class Rectangle:
            creating a recreation of the instance call
         '''
         rep = "{}({}, {})".format(self.__class__.__name__,
-                self.width, self.height)
+                                  self.width, self.height)
         return rep
 
     def __del__(self):
