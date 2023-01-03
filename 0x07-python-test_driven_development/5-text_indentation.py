@@ -16,7 +16,7 @@ def text_indentation(text):
         buf += letter
         if letter == "." or letter == "?" or letter == ":":
             while buf[0] == " ":
-               buf = buf[1:]
+                buf = buf[1:]
             print(buf)
             print()
             buf = ""
