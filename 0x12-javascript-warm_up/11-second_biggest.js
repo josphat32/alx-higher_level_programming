@@ -18,3 +18,4 @@ function second (myArray) {
   }
   
   console.log(second(process.argv));
+  
